@@ -649,50 +649,50 @@
     hyperscript "^2.0.2"
     object-assign "^4.1.1"
 
-"@sanity/block-content-to-react@^2.0.7":
+"@sanity/block-content-to-react@2.0.7":
   version "2.0.7"
   resolved "https://registry.npmjs.org/@sanity/block-content-to-react/-/block-content-to-react-2.0.7.tgz#6e257b5ab59ebe406005032eea586391d963eb93"
   dependencies:
     "@sanity/block-content-to-hyperscript" "^2.0.10"
     prop-types "^15.6.2"
 
-"@sanity/client@0.146.0":
-  version "0.146.0"
-  resolved "https://registry.npmjs.org/@sanity/client/-/client-0.146.0.tgz#7dfabb7f505c88ef5019353190497ae7fa7f7734"
+"@sanity/client@^0.147.3":
+  version "0.147.3"
+  resolved "https://registry.npmjs.org/@sanity/client/-/client-0.147.3.tgz#4ac0beb56df455441f203c6bfc8306e3b6c2b191"
   dependencies:
-    "@sanity/eventsource" "0.146.0"
-    "@sanity/generate-help-url" "0.146.0"
-    "@sanity/observable" "0.146.0"
+    "@sanity/eventsource" "0.147.0"
+    "@sanity/generate-help-url" "0.147.0"
+    "@sanity/observable" "0.147.0"
     deep-assign "^2.0.0"
     get-it "^5.0.0"
     make-error "^1.3.0"
     object-assign "^4.1.1"
 
-"@sanity/eventsource@0.146.0":
-  version "0.146.0"
-  resolved "https://registry.npmjs.org/@sanity/eventsource/-/eventsource-0.146.0.tgz#f39e0e625c0442201b709cd8cef40ea009df0d9b"
+"@sanity/eventsource@0.147.0":
+  version "0.147.0"
+  resolved "https://registry.npmjs.org/@sanity/eventsource/-/eventsource-0.147.0.tgz#40ef249c0803902800b951c765ffdf58205db6f7"
   dependencies:
     eventsource "^1.0.6"
     eventsource-polyfill "^0.9.6"
 
-"@sanity/generate-help-url@0.146.0":
-  version "0.146.0"
-  resolved "https://registry.npmjs.org/@sanity/generate-help-url/-/generate-help-url-0.146.0.tgz#72791e39e6dfd50a73236cd13e6870645d822795"
+"@sanity/generate-help-url@0.147.0":
+  version "0.147.0"
+  resolved "https://registry.npmjs.org/@sanity/generate-help-url/-/generate-help-url-0.147.0.tgz#720b55ea736dfdc65006ca225eceb8fe79537fdf"
 
 "@sanity/generate-help-url@^0.140.0":
   version "0.140.0"
   resolved "https://registry.npmjs.org/@sanity/generate-help-url/-/generate-help-url-0.140.0.tgz#f60ab75be5fdc346b9f0d1c2a0858aa3c2870109"
 
-"@sanity/image-url@^0.140.15":
+"@sanity/image-url@^0.140.15", "@sanity/image-url@^0.140.17":
   version "0.140.17"
   resolved "https://registry.npmjs.org/@sanity/image-url/-/image-url-0.140.17.tgz#fa4feecab1441fde6e95766b4bf721ca1a842872"
 
-"@sanity/observable@0.146.0":
-  version "0.146.0"
-  resolved "https://registry.npmjs.org/@sanity/observable/-/observable-0.146.0.tgz#292cb0864692f8878136fb8bb5e8598f6ef970b5"
+"@sanity/observable@0.147.0":
+  version "0.147.0"
+  resolved "https://registry.npmjs.org/@sanity/observable/-/observable-0.147.0.tgz#a146444a397eeaf268b3f6e2b02c8e2f114286af"
   dependencies:
     object-assign "^4.1.1"
-    rxjs "^6.5.2"
+    rxjs "^6.5.3"
 
 "@sanity/timed-out@^4.0.2":
   version "4.0.2"
@@ -5097,7 +5097,7 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-rxjs@^6.4.0, rxjs@^6.5.2:
+rxjs@^6.4.0, rxjs@^6.5.3:
   version "6.5.4"
   resolved "https://registry.npmjs.org/rxjs/-/rxjs-6.5.4.tgz#e0777fe0d184cec7872df147f303572d414e211c"
   dependencies:
